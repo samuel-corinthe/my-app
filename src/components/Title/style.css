@@ -1,0 +1,16 @@
+.title {
+  display: inline-block;
+  margin: 10px 0 20px;
+  padding: 8px 18px;
+  font-size: 2.2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: linear-gradient(180deg, #fff 0%, #ffe27a 60%, #ffb400 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 2px 0 #ffcf33, 0 4px 0 #c79c00, 0 6px 14px rgba(0, 0, 0, 0.45);
+  border-bottom: 4px solid #ffcc00;
+  border-radius: 4px;
+}

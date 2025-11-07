@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <g id="pokeball">
+      <circle cx="60" cy="60" r="34" fill="#fff"></circle>
+      <path d="M26,60a34,34 0 0 1 68,0H26Z" fill="#e63946"></path>
+      <path d="M26,60a34,34 0 0 0 68,0H26Z" fill="#1a1a1a" opacity=".85"></path>
+      <circle cx="60" cy="60" r="12" fill="#fff" stroke="#1a1a1a" stroke-width="6"></circle>
+    </g>
+  </defs>
+  <rect width="120" height="120" fill="#0b2e66"></rect>
+  <use href="#pokeball" x="0" y="0" opacity=".08"></use>
+  <use href="#pokeball" x="60" y="60" opacity=".08"></use>
+</svg>

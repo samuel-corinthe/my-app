@@ -1,0 +1,36 @@
+.sound-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 18px;
+  border: 1.5px solid rgba(255, 255, 255, 0.25);
+  border-radius: 12px;
+  background: rgba(86, 192, 105, 0.08);
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  backdrop-filter: blur(6px);
+}
+
+.sound-toggle[aria-pressed="false"] {
+  opacity: 0.6;
+
+}
+
+.sound-toggle:hover {
+  background: rgba(123, 23, 23, 0.18);
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+.sound-toggle svg {
+  width: 20px;
+  height: 20px;
+  stroke: currentColor;
+}
+
+.sound-toggle .label {
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}

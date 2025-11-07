@@ -1,0 +1,25 @@
+.music-player {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.music-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 800;
+  font-size: 1rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.music-btn:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(180deg, #ff6b81, #e84118);
+}
